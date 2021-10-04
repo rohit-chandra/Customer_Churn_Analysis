@@ -61,7 +61,7 @@ Also, since the target class is imbalanced we can use sampling techniques like m
 
 
 ## How will you measure success?
-Since it is a classification problem we will use the following performance metrics:
+Since it is a classification problem we will use the following performance metrics:-
 * Confusion matrix
 * precision
 * recall
