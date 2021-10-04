@@ -1,4 +1,4 @@
-# Customer_Churn_Analysis
+# Customer Churn Analysis
 
 Contributors of the project:
 1) Aishwarya Paruchuri : https://github.com/aishwarya95698
@@ -19,7 +19,7 @@ If a company is not capable to identify these signals and take actions prior to 
 
 
 ## Dataset used : https://www.kaggle.com/royjafari/customer-churn
-Description of the data:
+**Description of the data:**
 Data is about churning telecom customers based on the features
 * Complaints
 * Subscription Length
