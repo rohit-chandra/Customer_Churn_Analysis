@@ -62,7 +62,7 @@ We'll follow the life cycle of the Data science project:
 Also, since the target class is imbalanced we can use sampling techniques like methods like SMOTE: Synthetic Minority Oversampling Technique to handle the imbalanced dataset
 
 
-## How will you measure success?
+## How to measure success?
 Since it is a classification problem we will use the following performance metrics:-
 * Confusion matrix
 * precision
