@@ -40,6 +40,7 @@ Data is about churning telecom customers based on the features
 Using different classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
 
 Questions to Investigate:
+
 Main factors that lead customers to the cancellation decision based on the following metrics
 * Poor service quality
 * Delay on customer support 
