@@ -1,4 +1,4 @@
-# Customer_Churn_Analysis
+# Customer Churn Analysis
 
 Contributors of the project :
 1) Aishwarya Paruchuri : https://github.com/aishwarya95698
@@ -9,6 +9,8 @@ Contributors of the project :
 
 **Understanding customer churn**
 
+![](/images/customer_churn.jpeg)
+
 Companies usually have a greater focus on customer acquisition and keep retention as a secondary priority. However, it can cost five times more to attract a new customer than it does to retain an existing one. Increasing customer retention rates by 5% can increase profits by 25% to 95%, according to research done by Bain & Company.
 
 Churn is a metric that shows customers who stop doing business with a company or a particular service, also known as customer attrition. By following this metric, what most businesses could do was try to understand the reason behind churn numbers and tackle those factors, with reactive action plans.
@@ -17,7 +19,7 @@ If a company is not capable to identify these signals and take actions prior to 
 
 
 ## Dataset used : https://www.kaggle.com/royjafari/customer-churn
-Description of the data:
+**Description of the data:**
 Data is about churning telecom customers based on the features
 * Complaints
 * Subscription Length
@@ -38,6 +40,7 @@ Data is about churning telecom customers based on the features
 Using different classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
 
 Questions to Investigate:
+
 Main factors that lead customers to the cancellation decision based on the following metrics
 * Poor service quality
 * Delay on customer support 
@@ -60,8 +63,8 @@ We'll follow the life cycle of the Data science project:
 Also, since the target class is imbalanced we can use sampling techniques like methods like SMOTE: Synthetic Minority Oversampling Technique to handle the imbalanced dataset
 
 
-## How will you measure success?
-Since it is a classification problem we will use the following performance metrics:
+## How to measure success?
+Since it is a classification problem we will use the following performance metrics:-
 * Confusion matrix
 * precision
 * recall
