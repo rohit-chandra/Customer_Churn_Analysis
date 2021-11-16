@@ -1,6 +1,6 @@
 # Customer Churn Analysis
 
-Contributors of the project:
+Contributors of the project :
 1) Aishwarya Paruchuri : https://github.com/aishwarya95698
 2) Archita Chakraborty : https://github.com/Archita22ind
 3) Manjushree Barike Rajanna : https://github.com/MANJUSHREEBR
