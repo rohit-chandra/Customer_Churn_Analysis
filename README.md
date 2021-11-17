@@ -18,7 +18,9 @@ Churn is a metric that shows customers who stop doing business with a company or
 If a company is not capable to identify these signals and take actions prior to losing the customer, there is no turning back. The customer churn data is a valuable asset for meaningful insights and to train customer churn models. Learn from the past, and have strategic information at hand to improve future experiences using machine learning.
 
 
-## Dataset used : https://archive.ics.uci.edu/ml/datasets/Iranian+Churn+Dataset?TB_iframe=true&width=370.8&height=658.8
+## Dataset used : 
+https://archive.ics.uci.edu/ml/datasets/Iranian+Churn+Dataset?TB_iframe=true&width=370.8&height=658.8
+
 **Description of the data:**
 Data is about churning telecom customers based on the features
 * Complaints
