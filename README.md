@@ -30,16 +30,15 @@ Data is about churning telecom customers based on the features
 * Frequency of use
 * Frequency of SMS
 * Distinct Called Numbers
-* Age Group
 * Tariff Plan
 * Status
 * Age
 * Customer Value
 
 
-## Description of the problem you’ll solve or the question you’ll investigate.
+## Description of the problem being solved/investigated.
 
-Using different classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
+Using different multi-classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
 
 Questions to Investigate:
 
@@ -53,24 +52,51 @@ Main factors that lead customers to the cancellation decision based on the follo
 
 Usually, there is no single reason, but a combination of events that somehow culminate in customer discontinuation.
 
-## Potential methods you will consider apply (these can change as you play with the data).
-We'll follow the life cycle of the Data science project:
-1) Data preprocessing (handling null values/outliers)
-2) Perform Univariate and Bivariate analysis to see the relation between the features and the predictor variable
-3) Feature Engineering ( Deriving new columns from the exsiting columns, Scaling column values(standardization and normalization)
-4) Feature Selection ( Methods: select K-best
-5) Training the model
-6) Performance Metrics
+## Potential methods applied on the data set:
 
-Also, since the target class is imbalanced we can use sampling techniques like methods like SMOTE: Synthetic Minority Oversampling Technique to handle the imbalanced dataset
+**We'll follow the life cycle of the Data science project:**
+
+1)  **Data preprocessing**
+  * handle null values
+  * Handle outliers
+
+2) **Univariate and Bivariate analysis**
+  * Infer relations between the input features and the predictor variable
+
+3) **Feature Engineering**
+  * Deriving new columns from the exsiting columns
+  * Scaling column values(Using MinMaxScalar() method)
+
+4) **Handle Imbalanced Dataset**
+   Sampling techniques such as
+  * Undersampling
+  * Synthetic Minority Over-sampling Technique (SMOTE)
+
+5) **Feature Importance**
+  * Based on **correlation** we choose the most important features in the entire dataset
+
+6) **Feature Selection** 
+  * We select the best features using TreeBasedFeature Selection
+
+7) Training different **multi-classification models** with **Hyperpameter tuning** using gridsearch() with and without sampled data
+  * XGBoost
+  * Naive Bayes - GuassianNB, MultinomialNB, CompleteNB
+  * SVM
+  * Decision Trees
+8) **Performance Metrics**
+  * Compute different performance meterics like Confusion Matrix, classification report(Precision, Recall, F1 score)
+
+10) Compare the performance metrics of different models and derive conclusions to abate the customer churn
 
 
 ## How to measure success?
 Since it is a classification problem we will use the following performance metrics:-
-* Confusion matrix
-* precision
-* recall
-* F1 score
+  * Accuracy
+  * Confusion Matrics
+  * Precision
+  * Recall
+  * F1 score
+  * Receiver operating characteristic(ROC) and Area under the curve(AUC)
 
 
 
