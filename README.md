@@ -57,7 +57,7 @@ Usually, there is no single reason, but a combination of events that somehow cul
 **We'll follow the life cycle of the Data science project:**
 
 1)  **Data preprocessing**
-  * handle null values
+  * Handle null values
   * Handle outliers
 
 2) **Univariate and Bivariate analysis**
@@ -69,14 +69,14 @@ Usually, there is no single reason, but a combination of events that somehow cul
 
 4) **Handle Imbalanced Dataset**
    Sampling techniques such as
-  * Undersampling
+  * Undersampling majority class set
   * Synthetic Minority Over-sampling Technique (SMOTE)
 
 5) **Feature Importance**
   * Based on **correlation** we choose the most important features in the entire dataset
 
 6) **Feature Selection** 
-  * We select the best features using TreeBasedFeature Selection
+  * We select the best features using SelectKBest feature Selection technique
 
 7) Training different **multi-classification models** with **Hyperpameter tuning** using gridsearch() with and without sampled data
   * XGBoost
@@ -85,6 +85,9 @@ Usually, there is no single reason, but a combination of events that somehow cul
   * Decision Trees
 8) **Performance Metrics**
   * Compute different performance meterics like Confusion Matrix, classification report(Precision, Recall, F1 score)
+
+9) **Multicollinearity Problem**  
+   * Check for highly correlated features and selectively discard one of them
 
 10) Compare the performance metrics of different models and derive conclusions to abate the customer churn
 
