@@ -95,7 +95,7 @@ Usually, there is no single reason, but a combination of events that somehow cul
 ## How to measure success?
 Since it is a classification problem we will use the following performance metrics:-
   * Accuracy
-  * Confusion Matrics
+  * Confusion Matrix
   * Precision
   * Recall
   * F1 score
