@@ -25,20 +25,26 @@ If a company is not capable to identify these signals and take actions prior to 
 https://archive.ics.uci.edu/ml/datasets/Iranian+Churn+Dataset?TB_iframe=true&width=370.8&height=658.8
 
 **Description of the data:**
-Data is about churning telecom customers based on the features
-* Complaints
-* Subscription Length
-* Charge Amount
-* Seconds of Use
-* Frequency of use
-* Frequency of SMS
-* Distinct Called Numbers
-* Tariff Plan
-* Status
-* Age
-* Customer Value
+Data is about churning telecom customers based on the below features
 
+| Feature Name           |     Type       | Description                                   | 
+| -----------------------|----------------| ----------------------------------------------|
+| Call Failures          |  Categorical   | number of call failures.                      |
+| Complains              |  Numerical     | binary (0: No complaint, 1: complaint)        |
+| Call Failures          |  Categorical   | number of call failures                       |
+| Subscription Length    |  Numerical     | total months of subscription                  |
+|  Charge Amount         |  Categorical   | 0: lowest amount, 9: highest amount           |
+| Seconds of Use         |  Numerical     | total seconds of calls                        |
+| Frequency of use       |  Numerical     | total number of calls                         |
+| Frequency of SMS       |  Numerical     | total number of text messages                 |
+| Distinct Called Numbers|  Numerical     | total number of distinct phone calls          |
+| Tariff Plan            |  Categorical   | binary (1: Pay as you go, 2: contractual)     |
+| AgeGroup               |  Categorical   | 1: younger age, 5: older age                  |
+| Status                 |  Categorical   | binary (1: active, 2: non-active)             |
+| Customer Value         |  Numerical     | calculated value of customer                  |
+| Churn                  |  Categorical   | binary (1: churn, 0: non-churn) - Class label |
 
+       
 ## Description of the problem being solved/investigated.
 
 Using different multi-classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
