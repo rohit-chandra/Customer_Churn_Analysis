@@ -4,14 +4,14 @@
 
 ## Contents
 
- * [Understanding customer churn](#Understanding customer churn)
- * [Quick start](#Quick start)
- * [Folder Structure](#Folder Structure)
- * [Installation](#Installation)
- * [Steps to run the project](#Steps to run the project)
+ * [Understanding customer churn](#understandin-customer-churn)
+ * [Quick start](#quick-start)
+ * [Folder Structure](#folder-structure)
+ * [Installation](#installation)
+ * [Steps to run the project](#steps-to-run-the-project)
  * [Dataset](#Dataset)
- * [Problem being solved/investigated](#Problem being solved/investigated)
- * [Data Science Life cycle](#Data Science Life cycle)
+ * [Problem being investigated](#problem-being-investigated)
+ * [Data Science Life cycle](#data-science-life-cycle)
  * [Conclusion](#Conclusion)
  * [Contributors](#Contributors)
  * [License](#License)
@@ -59,7 +59,7 @@ Data is about churning telecom customers based on the below features-
 | Churn                  |  Categorical   | binary (1: churn, 0: non-churn) - Class label |
 
        
-## Problem being solved/investigated
+## Problem being investigated
 
 Using different multi-classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
 
