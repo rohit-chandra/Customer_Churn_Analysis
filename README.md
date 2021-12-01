@@ -32,6 +32,37 @@ If a company is not capable to identify these signals and take actions prior to 
 ## ⚡️ Quick start
 
 ### Folder Structure :
+
+Customer_Churn_Analysis/
+├── Model
+│   ├── images   
+│   ├── Model_building_with_clean_data.ipynb
+│   └── README.md      
+├── data
+│   ├── Customer_churn_raw.csv
+│   ├── Customer_churn_raw.csv
+│   └── churn_final.csv|
+├── data_preprocessing
+│   ├── CustomerChurnPrediction.ipynb
+│   └── README.md
+└── data_visualization   
+│   ├── images
+│   ├── Data visualization after cleaning.ipynb
+│   ├── DataVisualization_BeforeDataCleaning.ipynb
+│   ├── High_Level_Overview_of_dataset.ipynb
+│   ├── sweet_report.html
+│   └── README.md
+└── images
+│   ├── ...
+│   └── customer_churn.jpeg
+└── report
+    ├── Images
+    ├── Customer_Churn_Analysis.pdf
+    ├── ieeeconf.cls
+    └── main.tex
+
+
+
 ### Installation :
 ### Steps to run the project :
 
