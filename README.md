@@ -101,9 +101,17 @@ Installation of below packages required before running the project
 
 
 ### Steps to run the project :
-```shell
- Clone repository here: https://github.com/rohit-chandra/Customer_Churn_Analysis.git
-```
+
+1. Create a folder in local for Above Git Repo and open in termianl to execute below commands-
+
+    `$ git clone https://github.com/rohit-chandra/Customer_Churn_Analysis.git`
+
+
+2. Navigate to folder data_visualization and run DataVisualization_BeforeDataCleaning.ipynb in jupyter notebook
+3. Navigate to folder data_preprocessing and run CustomerChurnPrediction.ipynb in jupyter notebook
+4. Navigate to folder data_visualization and run Data_visualization_after_cleaning.ipynb in jupyter notebook
+5. Navigate to folder Model and run Model_building_with_clean_data.ipynb in jupyter notebook
+
 
 ## Dataset
 
