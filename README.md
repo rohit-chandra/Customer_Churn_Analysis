@@ -4,14 +4,14 @@
 
 ## Contents
 
- * [Understanding customer churn](#Understanding)
- * [Quick start](#Quick-start)
- * [Folder Structure](#folder-Structure)
+ * [Understanding customer churn](#Understanding customer churn)
+ * [Quick start](#Quick start)
+ * [Folder Structure](#Folder Structure)
  * [Installation](#Installation)
- * [Steps to run the project ](#Steps-to-run-the-project)
+ * [Steps to run the project](#Steps to run the project)
  * [Dataset](#Dataset)
- * [Problem being solved/investigated](#Problem-being-solved/investigated)
- * [Data Science Life cycle](#Data-Science-Life-cycle)
+ * [Problem being solved/investigated](#Problem being solved/investigated)
+ * [Data Science Life cycle](#Data Science Life cycle)
  * [Conclusion](#Conclusion)
  * [Contributors](#Contributors)
  * [License](#License)
@@ -134,4 +134,4 @@ Since it is a classification problem we will use the following performance metri
 * [Rohit Chandra](https://github.com/rohit-chandra)
 
 
-##  ⚠️ License
+##  License
