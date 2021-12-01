@@ -2,15 +2,23 @@
 
 # Customer Churn Analysis
 
-Contributors of the project :
+## Contents
 
-* [Aishwarya Paruchuri](https://github.com/aishwarya95698)
-* [Archita Chakraborty](https://github.com/Archita22ind)
-* [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
-* [Rohit Chandra](https://github.com/rohit-chandra)
+ * [Understanding customer churn](Understanding)
+ * [Quick start](Quick-start)
+ * [Folder Structure](folder-Structure)
+ * [Installation](Installation)
+ * [Steps to run the project ](Steps-to-run-the-project)
+ * [Dataset](Dataset)
+ * [Problem being solved/investigated](Problem-being-solved/investigated)
+ * [Data Science Life cycle](Data-Science-Life-cycle)
+ * [Conclusion](Conclusion)
+ * [Contributors](Contributors)
+ * [License](License)
 
 
-**Understanding customer churn**
+
+## Understanding customer churn
 
 ![](/images/customer_churn.jpeg)
 
@@ -21,11 +29,17 @@ Churn is a metric that shows customers who stop doing business with a company or
 If a company is not capable to identify these signals and take actions prior to losing the customer, there is no turning back. The customer churn data is a valuable asset for meaningful insights and to train customer churn models. Learn from the past, and have strategic information at hand to improve future experiences using machine learning.
 
 
-## Dataset used : 
+## ⚡️ Quick start
+
+### Folder Structure :
+### Installation :
+### Steps to run the project :
+
+## Dataset
+
 https://archive.ics.uci.edu/ml/datasets/Iranian+Churn+Dataset?TB_iframe=true&width=370.8&height=658.8
 
-**Description of the data:**
-Data is about churning telecom customers based on the below features
+Data is about churning telecom customers based on the below features-
 
 | Feature Name           |     Type       | Description                                   | 
 | -----------------------|----------------| ----------------------------------------------|
@@ -45,11 +59,11 @@ Data is about churning telecom customers based on the below features
 | Churn                  |  Categorical   | binary (1: churn, 0: non-churn) - Class label |
 
        
-## Description of the problem being solved/investigated.
+## Problem being solved/investigated
 
 Using different multi-classification algorithms that give accurate classifications of the dataset and employ the recognized pattern from the data to make the best decision about each existing customer in the dataset set.
 
-Questions to Investigate:
+Questions to Investigate?
 
 Main factors that lead customers to the cancellation decision based on the following metrics
 * Poor service quality
@@ -61,9 +75,8 @@ Main factors that lead customers to the cancellation decision based on the follo
 
 Usually, there is no single reason, but a combination of events that somehow culminate in customer discontinuation.
 
-## Potential methods applied on the data set:
+## Data Science Life cycle 
 
-**We'll follow the life cycle of the Data science project:**
 
 1)  **Data preprocessing**
   * Handle null values
@@ -101,7 +114,8 @@ Usually, there is no single reason, but a combination of events that somehow cul
 10) Compare the performance metrics of different models and derive conclusions to abate the customer churn
 
 
-## How to measure success?
+## Conclusion
+
 Since it is a classification problem we will use the following performance metrics:-
   * Accuracy
   * Confusion Matrix
@@ -112,6 +126,12 @@ Since it is a classification problem we will use the following performance metri
 
 
 
+### Contributors
+
+* [Aishwarya Paruchuri](https://github.com/aishwarya95698)
+* [Archita Chakraborty](https://github.com/Archita22ind)
+* [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
+* [Rohit Chandra](https://github.com/rohit-chandra)
 
 
-
+##  ⚠️ License
