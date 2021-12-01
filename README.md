@@ -33,6 +33,7 @@ If a company is not capable to identify these signals and take actions prior to 
 
 ### Folder Structure :
 
+```shell
 Customer_Churn_Analysis/
 ├── Model
 │   ├── images   
@@ -41,7 +42,7 @@ Customer_Churn_Analysis/
 ├── data
 │   ├── Customer_churn_raw.csv
 │   ├── Customer_churn_raw.csv
-│   └── churn_final.csv|
+│   └── churn_final.csv
 ├── data_preprocessing
 │   ├── CustomerChurnPrediction.ipynb
 │   └── README.md
@@ -59,12 +60,50 @@ Customer_Churn_Analysis/
     ├── Images
     ├── Customer_Churn_Analysis.pdf
     ├── ieeeconf.cls
-    └── main.tex
-
-
+    └── main.tex    
+```
 
 ### Installation :
+
+Installation of below packages required before running the project
+
+* `pip install anaconda-navigator`
+* `pip install anaconda-navigator==2.1.1`
+* `pip install analytics-python==1.4.0`
+* `pip install certifi==2021.10.8`
+* `pip install conda==4.10.3`
+* `pip install conda-build==3.21.6`
+* `pip install conda-verify==3.4.2`
+* `pip install IPython==7.22.0`
+* `pip install ipykernel==5.3.4`
+* `pip install ipywidgets==7.6.5`
+* `pip install jupyter_client==7.0.6`
+* `pip install jupyter==1.0.0`
+* `pip install Keras==2.3.1`
+* `pip install missingno==0.4.2`
+* `pip install pep8==1.7.1`
+* `pip install plotly==5.3.0`
+* `pip install pyforest==1.0.3`
+* `pip install scikit-image==0.18.3`
+* `pip install scikit-learn==1.0.1`
+* `pip install seaborn==0.11.2`
+* `pip install numpy==1.19.2`
+* `pip install pandas==1.3.4`
+* `pip install pandas-profiling==2.9.0`
+* `pip install matplotlib==3.4.3`
+* `pip install imbalanced-learn==0.8.1`
+* `pip install nbclient==0.5.3`
+* `pip install nbconvert==6.1.0`
+* `pip install nbformat==5.1.3`
+* `pip install notebook==6.4.6`
+* `pip install nbdime==3.1.1`
+   
+
+
 ### Steps to run the project :
+```shell
+ Clone repository here: https://github.com/rohit-chandra/Customer_Churn_Analysis.git
+```
 
 ## Dataset
 
