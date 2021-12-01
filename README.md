@@ -4,17 +4,17 @@
 
 ## Contents
 
- * [Understanding customer churn](Understanding)
- * [Quick start](Quick-start)
- * [Folder Structure](folder-Structure)
- * [Installation](Installation)
- * [Steps to run the project ](Steps-to-run-the-project)
- * [Dataset](Dataset)
- * [Problem being solved/investigated](Problem-being-solved/investigated)
- * [Data Science Life cycle](Data-Science-Life-cycle)
- * [Conclusion](Conclusion)
- * [Contributors](Contributors)
- * [License](License)
+ * [Understanding customer churn](#Understanding)
+ * [Quick start](#Quick-start)
+ * [Folder Structure](#folder-Structure)
+ * [Installation](#Installation)
+ * [Steps to run the project ](#Steps-to-run-the-project)
+ * [Dataset](#Dataset)
+ * [Problem being solved/investigated](#Problem-being-solved/investigated)
+ * [Data Science Life cycle](#Data-Science-Life-cycle)
+ * [Conclusion](#Conclusion)
+ * [Contributors](#Contributors)
+ * [License](#License)
 
 
 
