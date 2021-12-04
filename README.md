@@ -4,7 +4,7 @@
 
 ## Contents
 
- * [Understanding customer churn](#understandin-customer-churn)
+ * [Understanding customer churn](#understanding-customer-churn)
  * [Quick start](#quick-start)
  * [Folder Structure](#folder-structure)
  * [Installation](#installation)
@@ -29,9 +29,9 @@ Churn is a metric that shows customers who stop doing business with a company or
 If a company is not capable to identify these signals and take actions prior to losing the customer, there is no turning back. The customer churn data is a valuable asset for meaningful insights and to train customer churn models. Learn from the past, and have strategic information at hand to improve future experiences using machine learning.
 
 
-## ⚡️ Quick start
+## Quick start
 
-### Folder Structure :
+### Folder Structure
 
 ```shell
 Customer_Churn_Analysis/
@@ -63,44 +63,13 @@ Customer_Churn_Analysis/
     └── main.tex    
 ```
 
-### Installation :
+### Installation
 
 Installation of below packages required before running the project
 
-* `pip install anaconda-navigator`
-* `pip install anaconda-navigator==2.1.1`
-* `pip install analytics-python==1.4.0`
-* `pip install certifi==2021.10.8`
-* `pip install conda==4.10.3`
-* `pip install conda-build==3.21.6`
-* `pip install conda-verify==3.4.2`
-* `pip install IPython==7.22.0`
-* `pip install ipykernel==5.3.4`
-* `pip install ipywidgets==7.6.5`
-* `pip install jupyter_client==7.0.6`
-* `pip install jupyter==1.0.0`
-* `pip install Keras==2.3.1`
-* `pip install missingno==0.4.2`
-* `pip install pep8==1.7.1`
-* `pip install plotly==5.3.0`
-* `pip install pyforest==1.0.3`
-* `pip install scikit-image==0.18.3`
-* `pip install scikit-learn==1.0.1`
-* `pip install seaborn==0.11.2`
-* `pip install numpy==1.19.2`
-* `pip install pandas==1.3.4`
-* `pip install pandas-profiling==2.9.0`
-* `pip install matplotlib==3.4.3`
-* `pip install imbalanced-learn==0.8.1`
-* `pip install nbclient==0.5.3`
-* `pip install nbconvert==6.1.0`
-* `pip install nbformat==5.1.3`
-* `pip install notebook==6.4.6`
-* `pip install nbdime==3.1.1`
-   
-
-
-### Steps to run the project :
+* `pip install -r requirements.txt`
+  
+### Steps to run the project
 
 1. Create a folder in local for Above Git Repo and open in termianl to execute below commands-
 
