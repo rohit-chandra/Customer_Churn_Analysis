@@ -96,10 +96,42 @@ It is suitable for classification with discrete features (e.g., word counts for 
 ### 3. Support Vector Classifier(SVC)
 It is a linear model that can be used to solve classification and regression problems.It can solve both linear and nonlinear problems.The algorithm generates a line or hyper-plane that divides the data into categories. Support Vector Classifier yields following results:
 
+### Support Vector Classifier(SVC) yields following graphs/results:
+
+#### Support Vector Classifier(SVC) (Imbalanced Data)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_SVM_Classifier.png)
+
+####  Support Vector Classifier(SVC) (Balanced Data - SMOTE)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_SVM_Classifier_withSMOTE.png)
+
+####  Support Vector Classifier(SVC) (Balanced Data - Undersampling)-
+
+![image](https://github.com/rohitchandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_SVM_Classifier_withUnderSampling.png)
+
+#### Support Vector Classifier(SVC) Results -
+
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/report/Images/svm.png)
 
 ### 4. Decision Tree 
 It is supervised machine learning that categorises or predicts outcomes based on the answers to a previous set of questions. Decision Tree yields following results:
+
+###  Decision Tree  yields following graphs/results:
+
+#### Decision Tree (Imbalanced Data)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_DT_Classifier.png)
+
+####  Decision Tree (Balanced Data - SMOTE)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_DT_Classifier_withSMOTE.png)
+
+####  Decision Tree  (Balanced Data - Undersampling)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_DT_Classifier_underSampling.png)
+
+####  Decision Tree Results -
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/report/Images/decisionTree.png)
 
