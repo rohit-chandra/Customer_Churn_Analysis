@@ -92,3 +92,14 @@ It is suitable for classification with discrete features (e.g., word counts for 
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/report/Images/MultinomialNB.png)
 
+
+### 3. Support Vector Classifier(SVC)
+It is a linear model that can be used to solve classification and regression problems.It can solve both linear and nonlinear problems.The algorithm generates a line or hyper-plane that divides the data into categories. Support Vector Classifier yields following results:
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/report/Images/svm.png)
+
+### 4. Decision Tree 
+It is supervised machine learning that categorises or predicts outcomes based on the answers to a previous set of questions. Decision Tree yields following results:
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/report/Images/decisionTree.png)
+
