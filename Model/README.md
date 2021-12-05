@@ -20,13 +20,15 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_XGBClassifier.png)
 
-#### XGBClassifier (Balanced Data - Under-sampling)-
-
-![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_XGBClassifierUnderSampling.png)
 
 #### XGBClassifier (Balanced Data - SMOTE)-
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_XGBClassifierWithSMOTE.png)
+
+#### XGBClassifier (Balanced Data - Under-sampling)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_XGBClassifierUnderSampling.png)
+
 
 #### XGBClassifier Results -
 
@@ -51,6 +53,10 @@ It is a naive bayes algorithm that is unique. When the features have continuous 
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_GaussianNB_Classifier_withSMOTE.png)
 
+#### Gaussian NB Classifier (Balanced Data - Under-sampling)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_GaussianNB_Classifier_withundersampling.png)
+
 #### Gaussian NB Classifier Results -
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/report/Images/GaussianNB.png)
 
@@ -68,6 +74,10 @@ It is well-suited to dealing with unbalanced data sets. Instead of calculating t
 #### Complement NB Classifier (Balanced Data - SMOTE)-
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_ComplementNB_Classifier_withSMOTE.png)
+
+#### Complement NB Classifier (Balanced Data - Under-sampling)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_ComplementNB_Classifier_withundersampling.png)
 
 #### Complement NB Classifier Results -
 
@@ -87,6 +97,10 @@ It is suitable for classification with discrete features (e.g., word counts for 
 #### Multinomial NB Classifier (Balanced Data - SMOTE)-
 
 ![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_MultinominalNB_Classifier_withSMOTE.png)
+
+#### Multinomial NB Classifier (Balanced Data - Under-sampling)-
+
+![image](https://github.com/rohit-chandra/Customer_Churn_Analysis/blob/main/Model/images/ROC_MultinominalNB_Classifier_withundersampling.png)
 
 #### Multinomial NB Classifier Results -
 
