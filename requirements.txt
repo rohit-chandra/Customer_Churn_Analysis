@@ -1,4 +1,4 @@
-anaconda-navigator==2.1.1
+anaconda-navigator==2.1.0
 analytics-python==1.4.0
 conda==4.10.3
 conda-build==3.21.6
